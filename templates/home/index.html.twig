@@ -1,0 +1,87 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+<!--Section-1-->
+    <section class="section-1">
+        <div class="jumbotron d-flex align-items-center">
+            <div class="gradient"></div>
+            <div class="container-fluid content">
+                <h1 data-aos="fade-up" data-aos-delay="100">Bienvenue dans Massgrafik</h1>
+                <h2 data-aos="fade-up" data-aos-delay="300">Your digital partner</h2>
+                <h4 data-aos="fade-up" data-aos-delay="500">Concevez votre image, créez votre présence en ligne, propulsez votre marque.</h4>
+                <p data-aos="fade-up" data-aos-delay="700"><a href="{{ path('app_about')}}" class="btn btn-success">Get Started</a></p>
+            </div>
+            <!--container-fluid end-->
+        </div>
+    </section>
+     <!--Section-2-->
+    <section class="section-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-12 box-1">
+                    <div class="row box" data-aos="fade-left" data-aos-delay="300">
+                        <div class="col-lg-2 col-sm-12">
+                            <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-10 col-sm-12">
+                            <h3><a href="services.html">design.</a></h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printer took a galley of type and</p>
+                            <p><a href="{{ path('app_servics')}}"><img src="images/plus.png" alt="plus"></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-12 box-2">
+                    <div class="row box" data-aos="fade-left" data-aos-delay="500">
+                        <div class="col-lg-2 col-sm-12">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-10 col-sm-12">
+                            <h3><a href="services.html">Web</a></h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printer took a galley of type and</p>
+                            <p><a href="{{ path('app_servics')}}"><img src="images/plus.png" alt="plus"></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-12 box-3">
+                    <div class="row box" data-aos="fade-left" data-aos-delay="700">
+                        <div class="col-lg-2 col-sm-12">
+                            <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-10 col-sm-12">
+                            <h3><a href="services.html">Conseil</a></h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printer took a galley of type and</p>
+                            <p><a href="{{ path('app_servics')}}"><img src="images/plus.png" alt="plus"></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-3">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-lg-5 col-md-12 p-0" data-aos="fade-right" data-aos-delay="300">
+                    <h2>Savoir faire<span>Pourquoi nous choisir ?</span></h2>
+                    <ul>
+                        <li><a href="{{ path('app_servics')}}"><i class="fa fa-angle-right" aria-hidden="true"></i>Site vitrine</a> </li>
+                        <li><a href="{{ path('app_servics')}}"><i class="fa fa-angle-right" aria-hidden="true"></i>Identité graphique</a></li>
+                        <li><a href="{{ path('app_servics')}}"><i class="fa fa-angle-right" aria-hidden="true"></i>E-commerce</a></li>
+                        <li><a href="{{ path('app_servics')}}"><i class="fa fa-angle-right" aria-hidden="true"></i>Flyers</a></li>
+                        <li><a href="{{ path('app_servics')}}"><i class="fa fa-angle-right" aria-hidden="true"></i>Création des logos</a></li>
+                        {# <li><a href="{{ path('app_servics')}}"><i class="fa fa-angle-right" aria-hidden="true"></i>Photography</a> #}
+                        </li> 
+                    </ul>
+                </div>
+                <div class="col-lg-7 col-md-12 p-0" data-aos="fade-left" data-aos-delay="300">
+                    <figure>
+                        <img class="inner-img" src="images/services-bg2.jpg" alt="services">
+                        <img class="out-sideimg" src="images/services-bg.jpg" alt="services">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

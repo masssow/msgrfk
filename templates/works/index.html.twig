@@ -1,0 +1,117 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello WorksController!{% endblock %}
+
+{% block body %}
+ <!--Section-5-->
+    <section class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-12">
+                    <h3>portfolios</h3>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <div class="row" data-aos="fade-up" data-aos-delay="300">
+                <a href="{{('images/Capture50.png')}}" target="_blank"data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="{{('images/Capture50.png')}}" class="img-fluid">
+                  <div class="overlay">
+                  <img src="images/plus-img.png" alt="plus-icon">
+                  <div class="inner-text"><h4>Association Lamp Paris <span></span></h4></div>
+                  </div>
+                </a>
+                <a href="{{ asset('images/capture12.png')}}" target="_blank" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="{{ asset('images/capture12.png')}}" class="img-fluid">
+                  <div class="overlay">
+                  <img src="images/plus-img.png" alt="plus-icon">
+                  <div class="inner-text"><h4>E-commerce <br> LacRose - Vente en ligne <span></span></h4></div>
+                  </div>
+                </a>
+                <a href="{{ asset('images/syllaShop.png')}}" target="_blank" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="{{ asset('images/syllaShop.png')}}" class="img-fluid">
+                  <div class="overlay">
+                  <img src="images/plus-img.png" alt="plus-icon">
+                  <div class="inner-text"><h4>Logo <br> Marque de mode <span></span></h4></div>
+                  </div>
+                </a>
+                <a href="images/portfolio-5.jpg" target="_blank" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="{{('images/CaptureDs.png')}}" class="img-fluid">
+                  <div class="overlay">
+                  <img src="{{('images/CaptureDs.png')}}" alt="plus-icon">
+                  <div class="inner-text"><h4>Site Vitrine <br> Ds Thermo-Bâches<span></span></h4></div>
+                  </div>
+                </a>
+            </div>
+            <!--/row-->
+            {# <div class="row" data-aos="fade-up" data-aos-delay="300">
+                <a href="images/portfolio-2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="images/portfolio-2.jpg" class="img-fluid">
+                  <div class="overlay">
+                  <img src="images/plus-img.png" alt="plus-icon">
+                  <div class="inner-text"><h4>beautiful beach <span>top view</span></h4></div>
+                  </div>
+                </a>
+                <a href="images/portfolio-3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="images/portfolio-3.jpg" class="img-fluid">
+                  <div class="overlay">
+                  <img src="images/plus-img.png" alt="plus-icon">
+                  <div class="inner-text"><h4>beautiful beach <span>top view</span></h4></div>
+                  </div>
+                </a>
+                <a href="images/portfolio-4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="images/portfolio-4.jpg" class="img-fluid">
+                  <div class="overlay">
+                  <img src="images/plus-img.png" alt="plus-icon">
+                  <div class="inner-text"><h4>beautiful beach <span>top view</span></h4></div>
+                  </div>
+                </a>
+                <a href="images/portfolio-5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="images/portfolio-5.jpg" class="img-fluid">
+                  <div class="overlay">
+                  <img src="images/plus-img.png" alt="plus-icon">
+                  <div class="inner-text"><h4>beautiful beach <span>top view</span></h4></div>
+                  </div>
+                </a>
+            </div>
+            
+            <div class="row" data-aos="fade-up" data-aos-delay="300">
+                <a href="images/portfolio-2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="images/portfolio-2.jpg" class="img-fluid">
+                  <div class="overlay">
+                  <img src="images/plus-img.png" alt="plus-icon">
+                  <div class="inner-text"><h4>beautiful beach <span>top view</span></h4></div>
+                  </div>
+                </a>
+                <a href="images/portfolio-3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="images/portfolio-3.jpg" class="img-fluid">
+                  <div class="overlay">
+                  <img src="images/plus-img.png" alt="plus-icon">
+                  <div class="inner-text"><h4>beautiful beach <span>top view</span></h4></div>
+                  </div>
+                </a>
+                <a href="images/portfolio-4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="images/portfolio-4.jpg" class="img-fluid">
+                  <div class="overlay">
+                  <img src="images/plus-img.png" alt="plus-icon">
+                  <div class="inner-text"><h4>beautiful beach <span>top view</span></h4></div>
+                  </div>
+                </a>
+                <a href="images/portfolio-5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                  <img src="images/portfolio-5.jpg" class="img-fluid">
+                  <div class="overlay">
+                  <img src="images/plus-img.png" alt="plus-icon">
+                  <div class="inner-text"><h4>beautiful beach <span>top view</span></h4></div>
+                  </div>
+                </a>
+            </div> #}
+            <!--/row-->
+            {# <div class="load-more">
+                <button type="button" class="btn btn-secondary">load more</button>
+            </div> #}
+        </div>
+        <!--container-->
+    </section>
+   
+{% endblock %}

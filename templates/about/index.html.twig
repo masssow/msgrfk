@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AboutController!{% endblock %}
+
+{% block body %}
+<!--Section-1-->
+    <section class="section-1">
+        <div class="jumbotron d-flex align-items-center">
+            <div class="gradient"></div>
+            <div class="container-fluid content">
+                <h1 data-aos="fade-right" data-aos-delay="300">A propos</h1>
+                <h2 data-aos="fade-left" data-aos-delay="300">Collaboration créative, prix compétitifs : Votre vision, notre expertise.</h2>
+            </div>
+            <!--container-fluid end-->
+        </div>
+    </section>
+    
+    <!-- About Section Start -->
+    <div id="about-us">
+        <div class="container">
+           <h3>Massgrafik</h3>
+            <div class="row" style="margin-right: 0; margin-left: 0;" data-aos="fade-up" data-aos-delay="300">
+                <div>
+                 <img src="{{ asset('images/pexels1229861.jpg')}}" alt="about-bg" class="thumbnail image">
+                  <p>Bonjour, je suis Samba Sow, un développeur professionnel avec une solide formation de base en développement web ainsi qu'une expertise autodidacte. Fort d'une vaste expérience professionnelle dans divers secteurs, j'ai acquis une connaissance approfondie des défis et des besoins des entreprises modernes. <br><br>
+                
+                  Ce qui distingue ma proposition, c'est mon initiative de collaborer avec d'autres talents indépendants, tels que des référenceur web (SEO), des web designers, des rédacteur web.. etc. Cette approche collaborative permet de conjuguer nos compétences variées pour créer des solutions web complètes et personnalisées. En travaillant ensemble, nous sommes en mesure d'offrir des prix plus accessibles que les agences web traditionnelles, tout en garantissant la qualité et la créativité de nos réalisations.<br><br>
+                  
+                  En choisissant de travailler avec moi, vous bénéficiez d'une équipe agile, flexible et réactive, qui met l'accent sur la communication directe et la compréhension approfondie de vos besoins. Mon engagement envers l'excellence dans le développement web, combiné à notre collaboration avec d'autres talents, garantit que votre projet sera livré dans les délais, conforme à vos attentes et à un prix compétitif. <br><br>
+                  
+                  Opter pour ma proposition, c'est choisir une approche innovante et collaborative du développement web, qui allie expertise technique, créativité et accessibilité financière. Ensemble, nous pouvons transformer votre vision en une réalité numérique exceptionnelle.<br><br>
+                  <div class="jumbotronOff d-flex align-items-center">
+                                <div class="gradientOff"></div>
+                                <div class="container-fluid content">
+                                   
+                                    <p data-aos="fade-up" data-aos-delay="300"><a href="{{ path('app_contact')}}" class="btn btn-successOff">Nouveau Projet</a></p>
+                                </div>
+                                <!--container-fluid end-->
+                            </div>
+                   </p>
+                   <br><br>
+                            
+                </div>
+             </div>
+        </div>
+    </div>
+    <!-- About Section End -->
+{% endblock %}
